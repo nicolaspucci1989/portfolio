@@ -1,5 +1,8 @@
 <template>
-  <div class="card card-side bg-base-200 shadow-xl">
+  <div
+      class="card card-side bg-base-200 shadow-xl"
+      @click="$router.push('post')"
+  >
     <figure v-if="img">
       <img
           :src="img"
@@ -9,10 +12,10 @@
     <div class="card-body">
       <h2 class="card-title">{{ title }}</h2>
       <div class="justify-start">
-       <CategoryBtn
-           v-for="tag in tags"
-           v-bind="tag"
-       />
+        <CategoryBtn
+            v-for="tag in tags"
+            v-bind="tag"
+        />
       </div>
       <p>
         {{ text }}
