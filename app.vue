@@ -5,7 +5,7 @@
       <div class="lg:w-[60vw] max-w-screen-lg lg:pt-4 lg:p-4">
         <AppHeader/>
         <div class="flex-1 p-3 md:py-[35]">
-          <CardList/>
+          <NuxtPage/>
           <div class="divider"></div>
          <Footer/>
         </div>
