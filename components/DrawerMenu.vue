@@ -8,10 +8,10 @@
         </router-link>
       </li>
       <li>
-        <a href="./about.html">
+        <router-link :to="{name: 'about'}">
           <PersonIcon/>
           About
-        </a>
+        </router-link>
       </li>
       <li>
         <a href="./categories.html">
