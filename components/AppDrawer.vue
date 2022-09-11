@@ -11,8 +11,8 @@
           </div>
         </div>
         <!-- avatar end -->
-        <h1 class="text-2xl p-2 pl-4">Sarissa Blog</h1>
-        <p class="text-sm pl-4">Responsive Blog Template</p>
+        <h1 class="text-2xl p-2 pl-4">Nicolas Pucci</h1>
+        <p class="text-sm pl-4">Desarrolador Web</p>
         <div class="flex gap-1 justify-center pt-4">
           <a class="btn btn-sm btn-ghost btn-square">
             <svg
