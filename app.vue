@@ -107,11 +107,7 @@
         <div class="flex-1 p-3 md:py-[35]">
           <CardList/>
           <div class="divider"></div>
-          <p class="text-sm pl-4">© 1967 - 2022 Sarissa Blog</p>
-          <p class="text-xs pl-4">
-            Sarissa theme desing by
-            <a class="link" href="https://github.com/iozcelik">iozcelik</a>
-          </p>
+         <Footer/>
         </div>
       </div>
     </div>
