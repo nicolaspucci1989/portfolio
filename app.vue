@@ -113,7 +113,6 @@
             <a class="link" href="https://github.com/iozcelik">iozcelik</a>
           </p>
         </div>
-
       </div>
     </div>
     <AppDrawer/>

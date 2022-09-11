@@ -1,7 +1,7 @@
 <template>
   <div class="flex gap-1 justify-center pt-4">
-    <FacebookIcon/>
-    <TwitterIcon/>
+<!--    <FacebookIcon/>-->
+<!--    <TwitterIcon/>-->
     <LinkedinIcon/>
     <GithubIcon/>
   </div>
