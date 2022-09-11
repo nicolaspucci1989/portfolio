@@ -4,13 +4,7 @@ import {defineNuxtConfig} from 'nuxt'
 export default defineNuxtConfig({
   build: {
     postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
+      postcssOptions: require('./postcss.config.js'),
     },
-  },
-  css: ['@/assets/css/tailwind.css', '@/assets/css/global.css']
+  }
 })
