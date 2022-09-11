@@ -4,15 +4,9 @@
     <div class="overflow-y-auto flex lg:justify-end w-fit lg:w-[40vw]">
       <!-- Sidebar content here -->
       <div class="w-fit p-3 lg:m-6 bg-base-100">
-        <!-- avatar start -->
-        <div class="avatar w-60">
-          <div class="w-16 lg:w-32 rounded-full mx-auto">
-            <img src="https://api.lorem.space/image/face?hash=92310"/>
-          </div>
-        </div>
-        <!-- avatar end -->
-        <h1 class="text-2xl p-2 pl-4">Nicolas Pucci</h1>
-        <p class="text-sm pl-4">Desarrolador Web</p>
+        <DrawerAvatar :src="data.src"/>
+        <h1 class="text-2xl p-2 pl-4">{{ data.title }}</h1>
+        <p class="text-sm pl-4">{{ data.subtitle }}</p>
         <div class="flex gap-1 justify-center pt-4">
           <a class="btn btn-sm btn-ghost btn-square">
             <svg
@@ -81,6 +75,11 @@
 </template>
 
 <script lang="ts" setup>
+const data = {
+  title: 'Nicolas Pucci',
+  subtitle: 'Desarrolador Web',
+  src: 'https://api.lorem.space/image/face?hash=92310'
+}
 </script>
 
 <style scoped>
