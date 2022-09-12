@@ -1,6 +1,7 @@
 <template>
   <div class="drawer-side">
     <label for="my-drawer-2" class="drawer-overlay"></label>
+    <!--    TODO: center here-->
     <div class="overflow-y-auto flex lg:justify-end w-fit lg:w-[40vw]">
       <!-- Sidebar content here -->
       <div class="w-fit p-3 lg:m-6 bg-base-100">
