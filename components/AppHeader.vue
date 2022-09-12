@@ -4,7 +4,7 @@
       <HamburgerBtn/>
     </div>
     <div class="flex-1">
-      <a class="btn btn-ghost normal-case text-xl" href="./">Portfolio</a>
+      <router-link class="btn btn-ghost normal-case text-xl" :to="{name: 'index'}">Portfolio</router-link>
     </div>
     <div class="flex-none">
       <AppSolarMode/>
