@@ -1,6 +1,6 @@
 <template>
   <button
-      class="btn btn-xs"
+      class="btn btn-xs mr-1.5 hover:cursor-default hover:bg-"
       :class="colorClass"
   >
     {{ name }}

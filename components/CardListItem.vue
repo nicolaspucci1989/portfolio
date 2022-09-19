@@ -1,12 +1,9 @@
 <template>
-  <div
-      class="card card-side bg-base-200 shadow-xl"
-      @click="$router.push('post')"
-  >
-    <figure v-if="img">
+  <div class="card card-side bg-base-200 shadow-xl">
+    <figure v-if="img" class="max-w-xs">
       <img
           :src="img"
-          alt="Book"
+          alt="image"
       />
     </figure>
     <div class="card-body">
@@ -17,9 +14,16 @@
             v-bind="tag"
         />
       </div>
-      <p>
-        {{ text }}
-      </p>
+      <article class="prose prose-stone" v-html="text">
+      </article>
+    </div>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">
+        <a href="https://github.com/nicolaspucci1989/food-overflow-java" target="_blank">
+          <span class="mr-3">Github</span>
+          <GithubIcon/>
+        </a>
+      </button>
     </div>
   </div>
 </template>
