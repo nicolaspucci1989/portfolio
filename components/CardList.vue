@@ -32,18 +32,16 @@ const data = [
     link: 'https://github.com/nicolaspucci1989/food-overflow-java'
   },
   {
-    title: 'Fringilla est ullamcorper eget nulla facilisi etiam dignissim.',
-    text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' +
-        '          do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n' +
-        '          Rhoncus dolor purus non enim. Purus viverra accumsan in nisl.\n' +
-        '          Aliquam faucibus purus in massa. In vitae turpis massa sed\n' +
-        '          elementum tempus egestas. Nisl purus in mollis nunc sed.\n' +
-        '          Ullamcorper morbi tincidunt ornare massa eget. Enim nulla\n' +
-        '          aliquet porttitor lacus luctus accumsan. Id neque aliquam\n' +
-        '          vestibulum morbi blandit cursus. Pellentesque eu tincidunt\n' +
-        '          tortor aliquam nulla facilisi cras. Sed augue lacus viverra\n' +
-        '          vitae.',
-    tags: [{color: 'accent', name: 'article'}]
+    title: 'Api Disney - Challenge preaceleración Alkemy.',
+    text: `<p>Api CRUD para peliculas y personajes de disney. Este proyecto usa
+            <span class="font-bold">Spring Boot</span>,
+            <span class="font-bold">Spring Data</span>,
+            autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
+            base de datos <span class="font-bold">MySQL</span>
+           </p>`,
+    img: 'assets/img/disney_api.png',
+    tags: [{color: 'accent', name: 'Java'}],
+    link: "https://github.com/nicolaspucci1989/disney-api"
   },
 
   {
