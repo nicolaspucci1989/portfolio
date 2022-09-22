@@ -19,7 +19,7 @@
     </div>
     <div class="card-actions justify-end">
       <button class="btn btn-primary">
-        <a href="https://github.com/nicolaspucci1989/food-overflow-java" target="_blank">
+        <a :href="link" target="_blank">
           <span class="mr-3">Github</span>
           <GithubIcon/>
         </a>
@@ -34,6 +34,7 @@ defineProps<{
   title: string
   text: string
   img?: string
+  link: string
   tags: {
     color: string
     name: string
