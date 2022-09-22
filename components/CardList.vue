@@ -50,7 +50,8 @@ const data = [
     text: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' +
         '          do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n' +
         '          Rhoncus dolor purus non enim.',
-    tags: [{color: 'red', name: 'books'}, {color: 'green', name: 'author'}]
+    tags: [{color: 'red', name: 'books'}, {color: 'green', name: 'author'}],
+    link: "https://github.com/nicolaspucci1989/disney-api"
   },
 ]
 </script>
