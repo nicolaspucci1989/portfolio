@@ -32,25 +32,27 @@ const data = [
     link: 'https://github.com/nicolaspucci1989/food-overflow-java'
   },
   {
-    title: 'Api Disney - Challenge preaceleración Alkemy.',
-    text: `<p>Api CRUD para peliculas y personajes de disney. Este proyecto usa
+    title: 'Aceleracion Alkemy - Api REST JAVA.',
+    text: `<p>Api rest para la administracion del sitio web de la ONG 'Somos Mas'. Este proyecto usa
             <span class="font-bold">Spring Boot</span>,
             <span class="font-bold">Spring Data</span>,
             autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
             base de datos <span class="font-bold">MySQL</span>
            </p>`,
-    img: 'assets/img/disney_api.png',
+    img: 'assets/img/alkemy_server.png',
     tags: [{color: 'accent', name: 'Java'}],
     link: "https://github.com/nicolaspucci1989/disney-api"
   },
-
   {
-    img: 'https://api.lorem.space/image/book?w=200&h=280',
-    title: 'Rhoncus dolor purus non enim.',
-    text: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' +
-        '          do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n' +
-        '          Rhoncus dolor purus non enim.',
-    tags: [{color: 'red', name: 'books'}, {color: 'green', name: 'author'}],
+    title: 'Api Disney - Challenge preaceleración Alkemy.',
+    text: `<p>Api CRUD para peliculas y personajes de disney. Este proyecto usa
+            <span class="font-bold">Spring Boot</span>,
+            <span class="font-bold">Spring Data</span>, busqueda con <span class="font-bold">especificaciones y metamodelo</span>
+            autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
+            base de datos <span class="font-bold">MySQL</span>
+           </p>`,
+    img: 'assets/img/disney_api.png',
+    tags: [{color: 'accent', name: 'Java'}],
     link: "https://github.com/nicolaspucci1989/disney-api"
   },
 ]
