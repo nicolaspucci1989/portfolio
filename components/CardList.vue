@@ -19,7 +19,7 @@
 <script lang="ts" setup>
 const data = [
   {
-    img: require('~/assets/img/food-overflow-uml.jpg'),
+    img: './img/food-overflow-uml.jpg',
     title: 'Proyecto Universitario "Food Overflow"',
     text: `<p>Proyecto de diseño con objetos en Java usando composite y strategy</p>
            <p>Usuarios:</p>
@@ -39,7 +39,7 @@ const data = [
             autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
             base de datos <span class="font-bold">MySQL</span>
            </p>`,
-    img: require('~/assets/img/alkemy_server.png'),
+    img: './img/alkemy_server.png',
     tags: [{color: 'accent', name: 'Java'}],
     link: "https://github.com/nicolaspucci1989/disney-api"
   },
@@ -51,7 +51,7 @@ const data = [
             autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
             base de datos <span class="font-bold">MySQL</span>
            </p>`,
-    img: require('~/assets/img/disney_api.png'),
+    img: './img/disney_api.png',
     tags: [{color: 'accent', name: 'Java'}],
     link: "https://github.com/nicolaspucci1989/disney-api"
   },
