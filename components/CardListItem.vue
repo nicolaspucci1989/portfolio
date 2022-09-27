@@ -1,12 +1,10 @@
 <template>
-  <div
-      class="card card-side bg-base-200 shadow-xl"
-      @click="$router.push('post')"
-  >
+  <div class="card xl:card-side bg-base-100 shadow-xl">
     <figure v-if="img">
       <img
           :src="img"
-          alt="Book"
+          alt="image"
+          width="400"
       />
     </figure>
     <div class="card-body">
@@ -17,9 +15,16 @@
             v-bind="tag"
         />
       </div>
-      <p>
-        {{ text }}
-      </p>
+      <article class="prose prose-stone" v-html="text">
+      </article>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">
+          <a :href="link" target="_blank">
+            <span class="mr-3">Ver en Github</span>
+            <GithubIcon/>
+          </a>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -30,6 +35,7 @@ defineProps<{
   title: string
   text: string
   img?: string
+  link: string
   tags: {
     color: string
     name: string

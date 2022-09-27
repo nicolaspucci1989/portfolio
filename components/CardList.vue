@@ -4,49 +4,62 @@
         v-for="item in data"
         v-bind="item"
     />
-    <!--    <div class="flex justify-center">-->
-<!--      <div class="btn-group">-->
-<!--        <button class="btn">1</button>-->
-<!--        <button class="btn">2</button>-->
-<!--        <button class="btn btn-disabled">...</button>-->
-<!--        <button class="btn">99</button>-->
-<!--        <button class="btn">100</button>-->
-<!--      </div>-->
-<!--    </div>-->
+    <!--        <div class="flex justify-center">-->
+    <!--      <div class="btn-group">-->
+    <!--        <button class="btn">1</button>-->
+    <!--        <button class="btn">2</button>-->
+    <!--        <button class="btn btn-disabled">...</button>-->
+    <!--        <button class="btn">99</button>-->
+    <!--        <button class="btn">100</button>-->
+    <!--      </div>-->
+    <!--    </div>-->
   </div>
 </template>
 
 <script lang="ts" setup>
 const data = [
   {
-    img: 'https://api.lorem.space/image/movie?w=200&h=280',
-    title: 'Lorem ipsum dolor sit amet',
-    text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' +
-        '          do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    tags: [{color: 'primary', name: 'movies'}, {color: 'secondary', name: 'watched'}]
+    img: './img/food-overflow-uml.jpg',
+    title: 'Proyecto Universitario "Food Overflow"',
+    text: `<p>Proyecto de diseño con objetos en Java usando composite y strategy</p>
+            <p>Usuarios pueden crear recetas. Estas recetas pueden ser simples o compuestas (composite).
+            Las recetas pueden ser sugeribles dependiendo de las condiciones nutricionales del usuario (strategy)</p>`,
+    tags: [{color: 'primary', name: 'Java'}, {color: 'secondary', name: 'JUnit'}, {color: 'primary', name: 'OOP'}],
+    link: 'https://github.com/nicolaspucci1989/food-overflow-java'
   },
   {
-    title: 'Fringilla est ullamcorper eget nulla facilisi etiam dignissim.',
-    text: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' +
-        '          do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n' +
-        '          Rhoncus dolor purus non enim. Purus viverra accumsan in nisl.\n' +
-        '          Aliquam faucibus purus in massa. In vitae turpis massa sed\n' +
-        '          elementum tempus egestas. Nisl purus in mollis nunc sed.\n' +
-        '          Ullamcorper morbi tincidunt ornare massa eget. Enim nulla\n' +
-        '          aliquet porttitor lacus luctus accumsan. Id neque aliquam\n' +
-        '          vestibulum morbi blandit cursus. Pellentesque eu tincidunt\n' +
-        '          tortor aliquam nulla facilisi cras. Sed augue lacus viverra\n' +
-        '          vitae.',
-    tags: [{color: 'accent', name: 'article'}]
+    title: 'Aceleracion Alkemy - Api REST JAVA.',
+    text: `<p>Api rest para la administracion del sitio web de la ONG 'Somos Mas'. Este proyecto usa
+            <span class="font-bold">Spring Boot</span>,
+            <span class="font-bold">Spring Data</span>,
+            autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
+            base de datos <span class="font-bold">MySQL</span>
+           </p>`,
+    img: './img/alkemy_server.png',
+    tags: [
+      {color: 'accent', name: 'Java'},
+      {color: 'secondary', name: 'JUnit'},
+      {color: 'green', name: 'Spring'},
+      {color: 'yellow', name: 'MySql'}
+    ],
+    link: "https://github.com/nicolaspucci1989/disney-api"
   },
-
   {
-    img: 'https://api.lorem.space/image/book?w=200&h=280',
-    title: 'Rhoncus dolor purus non enim.',
-    text: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' +
-        '          do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n' +
-        '          Rhoncus dolor purus non enim.',
-    tags: [{color: 'red', name: 'books'}, {color: 'green', name: 'author'}]
+    title: 'Api Disney - Challenge preaceleración Alkemy.',
+    text: `<p>Api CRUD para peliculas y personajes de disney. Este proyecto usa
+            <span class="font-bold">Spring Boot</span>,
+            <span class="font-bold">Spring Data</span>, busqueda con <span class="font-bold">especificaciones y metamodelo</span>
+            autenticacion con <span class="font-bold">Spring Security</span> y <span class="font-bold">JWT</span>
+            base de datos <span class="font-bold">MySQL</span>
+           </p>`,
+    img: './img/disney_api.png',
+    tags: [
+      {color: 'accent', name: 'Java'},
+      {color: 'secondary', name: 'JUnit'},
+      {color: 'green', name: 'Spring'},
+      {color: 'yellow', name: 'MySql'}
+    ],
+    link: "https://github.com/nicolaspucci1989/disney-api"
   },
 ]
 </script>
