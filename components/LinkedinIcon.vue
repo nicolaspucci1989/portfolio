@@ -1,6 +1,8 @@
 <template>
   <a
       class="btn btn-sm btn-ghost btn-square"
+      href="https://www.linkedin.com/in/nicolas-pucci/"
+      target="_blank"
   >
     <svg
         class="inline-block w-4 h-4 fill-current"
