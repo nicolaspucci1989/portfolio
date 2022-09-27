@@ -22,12 +22,8 @@ const data = [
     img: './img/food-overflow-uml.jpg',
     title: 'Proyecto Universitario "Food Overflow"',
     text: `<p>Proyecto de diseño con objetos en Java usando composite y strategy</p>
-           <p>Usuarios:</p>
-            <ul>
-              <li>Recetas simples y compuestas modeladas usando el patron composite</li>
-              <li>Condiciones alimenticias modeladas usando el patron strategy</li>
-              <li>Las recetas son editables por sus colaboradores</li>
-            </ul>`,
+            <p>Usuarios pueden crear recetas. Estas recetas pueden ser simples o compuestas (composite).
+            Las recetas pueden ser sugeribles dependiendo de las condiciones nutricionales del usuario (strategy)</p>`,
     tags: [{color: 'primary', name: 'Java'}, {color: 'secondary', name: 'JUnit'}, {color: 'primary', name: 'OOP'}],
     link: 'https://github.com/nicolaspucci1989/food-overflow-java'
   },
