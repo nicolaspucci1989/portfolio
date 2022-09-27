@@ -4,15 +4,15 @@
         v-for="item in data"
         v-bind="item"
     />
-<!--        <div class="flex justify-center">-->
-<!--      <div class="btn-group">-->
-<!--        <button class="btn">1</button>-->
-<!--        <button class="btn">2</button>-->
-<!--        <button class="btn btn-disabled">...</button>-->
-<!--        <button class="btn">99</button>-->
-<!--        <button class="btn">100</button>-->
-<!--      </div>-->
-<!--    </div>-->
+    <!--        <div class="flex justify-center">-->
+    <!--      <div class="btn-group">-->
+    <!--        <button class="btn">1</button>-->
+    <!--        <button class="btn">2</button>-->
+    <!--        <button class="btn btn-disabled">...</button>-->
+    <!--        <button class="btn">99</button>-->
+    <!--        <button class="btn">100</button>-->
+    <!--      </div>-->
+    <!--    </div>-->
   </div>
 </template>
 
@@ -36,7 +36,12 @@ const data = [
             base de datos <span class="font-bold">MySQL</span>
            </p>`,
     img: './img/alkemy_server.png',
-    tags: [{color: 'accent', name: 'Java'}],
+    tags: [
+      {color: 'accent', name: 'Java'},
+      {color: 'secondary', name: 'JUnit'},
+      {color: 'green', name: 'Spring'},
+      {color: 'yellow', name: 'MySql'}
+    ],
     link: "https://github.com/nicolaspucci1989/disney-api"
   },
   {
@@ -48,7 +53,12 @@ const data = [
             base de datos <span class="font-bold">MySQL</span>
            </p>`,
     img: './img/disney_api.png',
-    tags: [{color: 'accent', name: 'Java'}],
+    tags: [
+      {color: 'accent', name: 'Java'},
+      {color: 'secondary', name: 'JUnit'},
+      {color: 'green', name: 'Spring'},
+      {color: 'yellow', name: 'MySql'}
+    ],
     link: "https://github.com/nicolaspucci1989/disney-api"
   },
 ]
