@@ -1,9 +1,4 @@
 <template>
-  <a
-      class="btn btn-sm btn-ghost btn-square"
-      href="https://www.linkedin.com/in/nicolas-pucci/"
-      target="_blank"
-  >
     <svg
         class="inline-block w-4 h-4 fill-current"
         viewBox="0 0 24 24"
@@ -19,12 +14,4 @@
       <rect x="2" y="9" width="4" height="12"/>
       <circle cx="4" cy="4" r="2"/>
     </svg>
-  </a>
 </template>
-
-<script lang="ts" setup>
-</script>
-
-<style scoped>
-
-</style>
