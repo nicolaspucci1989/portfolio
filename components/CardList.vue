@@ -19,6 +19,24 @@
 <script lang="ts" setup>
 const data = [
   {
+    img: './img/dcl-museum-manager.png',
+    title: 'Decentraland Museum Manager para DCL Museum District',
+    text: `<p>Dashboard para la administracion de galerias NFT's en Decentraland Museum District</p>
+            <ul>
+              <li>
+                Creacion, listado, y eliminacion de espacios
+              </li>
+              <li>
+                Creacion, listado, y eliminacion de usuarios
+              </li>
+              <li>
+                Agregar y eliminar colaboradores a espacios
+              </li>
+            </ul>`,
+    tags: [{color: 'primary', name: 'Vue.js'}, {color: 'secondary', name: 'Firebase'}, {color: 'primary', name: 'Typescript'}, {color: 'secondary', name: 'DCL SDK'}],
+    link: 'https://github.com/nicolaspucci1989/food-overflow-java'
+  },
+  {
     img: './img/food-overflow-uml.jpg',
     title: 'Proyecto Universitario "Food Overflow"',
     text: `<p>Proyecto de diseño con objetos en Java usando composite y strategy</p>
