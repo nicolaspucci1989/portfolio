@@ -19,6 +19,20 @@
 <script lang="ts" setup>
 const data = [
   {
+    img: './img/dcl_museum.png',
+    title: 'Manager para DCL Museum District',
+    text: `<p>Panel de administracion para espacios de artes en Decentraland Museum District</p>
+            <p>Los usuarios pueden crear espacios de artes, invitar usuarios a participar en dichos espacios</p>`,
+    tags: [
+        {color: 'primary', name: 'Javascript'},
+      {color: 'secondary', name: 'Firebase'},
+      {color: 'primary', name: 'Vue.js'},
+      {color: 'secondary', name: 'Google Cloud'}
+    ],
+    link: 'https://fir-4f4fb.web.app/login',
+    type: 'web'
+  },
+  {
     img: './img/food-overflow-uml.jpg',
     title: 'Proyecto Universitario "Food Overflow"',
     text: `<p>Proyecto de diseño con objetos en Java usando composite y strategy</p>

@@ -20,8 +20,8 @@
       <div class="card-actions justify-end">
         <button class="btn btn-primary">
           <a :href="link" target="_blank">
-            <span class="mr-3">Ver en Github</span>
-            <GithubIcon/>
+            <span class="mr-3">Ver en {{type === 'web' ? 'La Web' : 'Github'}}</span>
+            <GithubIcon v-if="!type"/>
           </a>
         </button>
       </div>
@@ -40,5 +40,6 @@ defineProps<{
     color: string
     name: string
   }
+  type?: 'web'
 }>()
 </script>
